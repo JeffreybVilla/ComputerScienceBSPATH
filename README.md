@@ -18,7 +18,16 @@ This course is an introduction to computer architecture using assembly language 
 Data Structures & Algorithms
 
     1) Simple Sorting Algorithms
-    2)
+    2) Math Review & BigO
+    3) Recursion
+    4) Containers
+    5) Stack & Queue Algorithms
+    6) Trees
+    7) Heap, Quick, & Merge Sorting
+    8) Hashing
+    9) Graphs
+    10) Neural Nets
+    11) Finite Element Analysis
 
 
 
