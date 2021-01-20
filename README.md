@@ -1,5 +1,6 @@
 # Table of Contents
 * [CISP 310 Assembly Language Programming](#c310)
+* [CISP 430 Data Structures](#c430)
 * [CISP 440 Discrete Structures for CS](#c440)
 
 
@@ -12,6 +13,13 @@ This course is an introduction to computer architecture using assembly language 
     dfas
     dfasd
     fasf
+
+## <a name="c430"></a>CISP 430 - Data Structures & Algorithms
+Data Structures & Algorithms
+
+    1) Simple Sorting Algorithms
+    2)
+
 
 
 ## <a name="c440"></a>CISP 440 - Discrete Structures for Computer Science
