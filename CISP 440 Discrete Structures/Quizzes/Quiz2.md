@@ -5,3 +5,10 @@ Group of answer choices
  
     a. John is not 6 feet tall or he weighs less than 200 pounds.
     b. Neither was the bus late nor was Tom's watch slow.
+
+write each of the two statements in symbolic form and determine whether they are logically equivalent. Include a truth table and a few words of explanation.
+1. If you paid full price, you didn't buy it at Crown Books.
+2. You didn't buy it at Crown Books or you paid full price.
+
+
+        Let p represent “You paid full price” and q represent “You didn’t buy it at Crown Books.” Thus, “If you paid full price, you didn’t buy it at Crown Books” has the form p → q.  And “You didn’t buy it at Crown Books or you paid full price” has the form q ∨ p.
