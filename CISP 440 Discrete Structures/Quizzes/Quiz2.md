@@ -214,3 +214,94 @@ An argument is called ___________ if, and only if, it is _________ and all its p
 What would be the best choice to fill in blanks for the above question?
 
     sound;  valid;    true;   sound;  unsound 
+
+
+## Q16
+The following represents the common form of each argument using letters to stand for component sentences, and fill in the blanks so that the argument in part (b) has the same logical form as the argument in part (a).
+a.  If n is divisible by 6, then n is divisible by 3.
+
+If n is divisible by 3, then the sum of the digits of n is divisible by 3.
+
+Therefore, if n is divisible by 6, then the sum of the dig- its of n is divisible by 3.
+
+(Assume that n is a particular, fixed integer.)
+
+b.  If this function is  __________ then this function is differentiable.
+
+If this function is ______________ then this function is continuous.
+
+Therefore, if this function is a polynomial, then this function   _____________________ .
+
+    common form: If p then q.
+
+    If q then r
+
+    Therefore,  if p then r.
+
+    b.  a polynomial;   differentiable;  is continuous 
+    
+## Q17
+“If compound X is boiling, then its temperature must be at least 150◦ C.” Assuming that this statement is true, which of the following must also be true?
+
+   a.   If the temperature of compound X is at least 150◦ C, then compound X is boiling.
+
+   b.  If the temperature of compound X is less than 150◦ C, then compound X is not boiling.
+
+   c.  Compound X will boil only if its temperature is at least 150◦ C.
+
+   d.  If compound X is not boiling, then its temperature is less than 150◦ C.
+
+   e.  A necessary condition for compound X to boil is that its temperature be at least 150◦ C.
+
+   f.  A sufficient condition for compound X to boil is that its temperature be at least 150◦ C.
+   
+    b, c and e. 
+    
+## Q18
+write each of the two statements in symbolic form and determine whether they are logically equivalent. Include a truth table and a few words of explanation.
+
+   1.  If you paid full price, you didn’t buy it at Crown Books.
+
+   2.  You didn’t buy it at Crown Books or you paid full price.
+   
+   
+   
+    Let p represent “You paid full price” and q represent “You didn’t buy it at Crown Books.” Thus, “If you paid full price, you didn’t buy it at Crown Books” has the form p → q.  And “You didn’t buy it at Crown Books or you paid full price” has the form q ∨ p.
+![](https://github.com/JeffreybVilla/ComputerScienceBSPATH/blob/main/CISP%20440%20Discrete%20Structures/images/2_2_pq_truth_2T1 (1).png)
+
+## Q19 same
+
+## 20
+   Use symbols to write the logical form of the following arguments. If the argument is valid, identify the rule of inference that guarantees its validity. Otherwise, state whether the converse or the inverse error is made.
+
+   a.  If I go to the movies, I won’t finish my homework.
+
+   If I don’t finish my homework, I won’t do well on the exam tomorrow.
+
+   ∴ If I go to the movies, I won’t do well on the exam tomorrow.
+
+   b.  If this number is larger than 2, then its square is larger than 4.
+
+   This number is not larger than 2.
+
+   ∴ The square of this number is not larger than 4.
+    
+    
+      
+    a.  p → q
+
+    q → r
+
+    ∴  p  →  r
+
+    valid: transitivity
+
+
+
+    b.   p → q
+
+    ∼ p
+
+    ∴ ∼  q
+
+    invalid: inverse error
