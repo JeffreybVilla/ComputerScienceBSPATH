@@ -95,3 +95,25 @@ In the following a set of premises and a conclusion are given. Use the valid arg
                    ∼s                                              by (5)    
 
                 ∴ ∼q                                            by elimination
+
+
+## Q6
+De Morgan’s laws say (1) that the negation of an and statement is logically equivalent to the  ____________ statement in which each component is ______________, and (2) that the negation of an or statement is logically equivalent to the _________________ statement in which each component is _____________ .
+
+  
+    or;
+
+    negated;
+
+    and;
+
+    negated
+    
+    
+## Q7 
+If statement forms P and Q are logically equivalent, then P ↔ Q is a tautology. Conversely, if P ↔ Q is a tautology, then P and Q are logically equivalent. Use ↔ to convert each of the logical equivalences for the falling statement a tautology. Then use a truth table to verify each tautology.
+
+   p → ( q → r )  ≡  ( p ∧ q ) → r
+
+    ANSWER:
+![](https://github.com/JeffreybVilla/ComputerScienceBSPATH/blob/main/CISP%20440%20Discrete%20Structures/images/2_2_pqr_truth_T_2Eq3.png)
