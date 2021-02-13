@@ -11,4 +11,5 @@ write each of the two statements in symbolic form and determine whether they are
 2. You didn't buy it at Crown Books or you paid full price.
 
 
-        Let p represent “You paid full price” and q represent “You didn’t buy it at Crown Books.” Thus, “If you paid full price, you didn’t buy it at Crown Books” has the form p → q.  And “You didn’t buy it at Crown Books or you paid full price” has the form q ∨ p.
+        Let p represent “You paid full price” and q represent “You didn’t buy it at Crown Books.” Thus, “If you paid full price, you didn’t buy
+        it at Crown Books” has the form p → q.  And “You didn’t buy it at Crown Books or you paid full price” has the form q ∨ p.
