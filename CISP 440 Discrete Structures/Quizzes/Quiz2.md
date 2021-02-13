@@ -1,4 +1,4 @@
-# Q1 
+## Q1 
 What would be negations for the following two statements?
 a. John is 6 feet tall and he weighs at least 200 pounds. 
 b. The bus was late or Tom's watch was slow. Group of answer choices 
@@ -17,3 +17,19 @@ b. You didn't buy it at Crown Books or you paid full price.
     Let p represent “You paid full price” and q represent “You didn’t buy it at Crown Books.” Thus, “If you paid full price, you didn’t buy
     it at Crown Books” has the form p → q.  And “You didn’t buy it at Crown Books or you paid full price” has the form q ∨ p.
 ![](https://github.com/JeffreybVilla/ComputerScienceBSPATH/blob/main/CISP%20440%20Discrete%20Structures/images/2_2_pq_truth_2T1.png)
+
+
+## Q3
+Suppose that p and q are statements so that p → q is false. Find the truth values of each of the following:
+
+   a.  ∼ p  →  q
+
+   b.  p ∨ q
+
+   c.  q → p
+
+     a.  True
+
+     b.  True
+
+     c.  True
