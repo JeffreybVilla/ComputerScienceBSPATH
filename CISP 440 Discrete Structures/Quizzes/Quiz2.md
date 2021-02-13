@@ -7,8 +7,8 @@ Group of answer choices
     b. Neither was the bus late nor was Tom's watch slow.
 
 Write each of the two statements in symbolic form and determine whether they are logically equivalent. Include a truth table and a few words of explanation.
-1. If you paid full price, you didn't buy it at Crown Books.
-2. You didn't buy it at Crown Books or you paid full price.
+a. If you paid full price, you didn't buy it at Crown Books.
+b. You didn't buy it at Crown Books or you paid full price.
 
 
         Let p represent “You paid full price” and q represent “You didn’t buy it at Crown Books.” Thus, “If you paid full price, you didn’t buy
