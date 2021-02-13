@@ -13,3 +13,4 @@ b. You didn't buy it at Crown Books or you paid full price.
 
     Let p represent “You paid full price” and q represent “You didn’t buy it at Crown Books.” Thus, “If you paid full price, you didn’t buy
     it at Crown Books” has the form p → q.  And “You didn’t buy it at Crown Books or you paid full price” has the form q ∨ p.
+![](https://github.com/JeffreybVilla/ComputerScienceBSPATH/blob/main/CISP%20440%20Discrete%20Structures/images/2_2_pq_truth_2T1.png)
