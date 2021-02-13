@@ -271,7 +271,7 @@ write each of the two statements in symbolic form and determine whether they are
 
 ## Q19 same
 
-## 20
+## Q20
    Use symbols to write the logical form of the following arguments. If the argument is valid, identify the rule of inference that guarantees its validity. Otherwise, state whether the converse or the inverse error is made.
 
    a.  If I go to the movies, I won’t finish my homework.
