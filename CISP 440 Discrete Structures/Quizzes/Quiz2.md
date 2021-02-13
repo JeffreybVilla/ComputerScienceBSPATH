@@ -45,3 +45,53 @@ p   ∨   q
 What is the Rule of Inference?
 
     Elimination
+
+
+## Q5
+In the following a set of premises and a conclusion are given. Use the valid argument forms listed in Table 2.3.1 to deduce the conclusion from the premises, giving a reason for each step as in Example 2.3.8. Assume all variables are statement variables.
+
+   a.  ∼ p ∨ q → r
+
+   b.  s ∨ ∼ q
+
+   c.   ∼ t
+
+   d.  p → t
+
+   e.  ∼ p  ∧  r → ∼ s
+
+   f.  ∴  ∼ q
+   
+        (1)   p → t                                  by premise (d )
+
+                    ∼ t                                        by premise (c)
+
+               ∴  ∼ p                                       by modus tollens
+
+           (2)   ∼ p                                       by (1) 
+
+                ∴ ∼ p ∨ q                              by generalization   
+
+           (3)  ∼ p ∨ q  →  r                    by premise (a)
+
+                   ∼p ∨ q                                 by (2)
+
+               ∴  r                                            by modus ponens 
+
+           (4)   ~ p                                        by (1) 
+
+                     r                                            by (3) 
+
+                ∴  ∼p ∧ r                                by conjunction 
+
+           (5)  ∼ p ∧ r → ∼ s                  by premise (e)  
+
+                    ∼p ∧ r                                  by (4)
+
+                   ∴ ∼s                                        by modus ponens 
+
+           (6)  s  ∨  ∼ q                                  by premise (b) 
+
+                   ∼s                                              by (5)    
+
+                ∴ ∼q                                            by elimination
