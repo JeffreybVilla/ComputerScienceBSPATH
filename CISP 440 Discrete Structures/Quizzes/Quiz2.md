@@ -117,3 +117,45 @@ If statement forms P and Q are logically equivalent, then P ↔ Q is a tautology
 
     ANSWER:
 ![](https://github.com/JeffreybVilla/ComputerScienceBSPATH/blob/main/CISP%20440%20Discrete%20Structures/images/2_2_pqr_truth_T_2Eq3.png)
+
+
+## Q8
+Determine whether the following statement forms are logically equivalent:
+
+p → ( q → r )   and   ( p → q ) → r
+
+    ANSWER:
+![](https://github.com/JeffreybVilla/ComputerScienceBSPATH/blob/main/CISP%20440%20Discrete%20Structures/images/2_2_pqr_truth_T_2Eq.png)
+
+
+## Q9
+   p  ∨  q
+
+   p  →  r
+
+   q  →  r
+
+    ∴  r
+
+What is the Rule of Inference?
+
+    Proof by Division into Cases 
+
+
+## Q10
+Use symbols to write the logical form of the following argument. If the argument is valid, identify the rule of inference that guarantees its validity. Otherwise, state whether the converse or the inverse error is made.
+
+   If I get a Christmas bonus, I’ll buy a stereo.
+
+   If I sell my motorcycle, I’ll buy a stereo.
+
+∴  If I get a Christmas bonus or I sell my motorcycle, then I’ll buy a stereo.
+
+ 
+      p ⟶ r
+
+      q ⟶ r
+
+      p V q ⟶ r 
+
+      valid, proof by division into cases
