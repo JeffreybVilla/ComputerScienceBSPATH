@@ -33,3 +33,15 @@ Suppose that p and q are statements so that p → q is false. Find the truth val
      b.  True
 
      c.  True
+
+
+## Q4
+p   ∨   q
+
+∼ p
+
+∴  q
+
+What is the Rule of Inference?
+
+    Elimination
