@@ -159,3 +159,58 @@ Use symbols to write the logical form of the following argument. If the argument
       p V q ⟶ r 
 
       valid, proof by division into cases
+
+
+## Q11
+Let p be the statement “DATAENDFLAG is off,” q the statement “ERROR equals 0,” and r the statement “SUM is less than 1,000.” Express the following sentences in symbolic notation.
+
+   a.  DATAENDFLAG is off but ERROR is not equal to 0.
+
+   b.  DATAENDFLAG is on and ERROR equals 0 but SUM is greater than or equal to 1,000.
+
+   c.  Either DATAENDFLAG is on or it is the case that both ERROR equals 0 and SUM is less than 1,000.
+   
+    a.  p ∧  ~ q
+
+    b.  ( ~ p ∧ q ) ∧ ~ r
+
+    c.  ~ p ∨ ( q ∧ r )       
+    
+    
+## Q12
+The negation of  “ if p then q ” is ___________________.
+
+    p ∧   ∼ q 
+    
+## Q13
+Choose the best choice for the following?
+
+Construct truth tables for the following statements.
+
+   a.  p ∧ ∼ r  ↔  q ∨ r
+
+   b.  ( p → r )  ↔  ( q → r )
+
+    ANSWER: 
+![](https://github.com/JeffreybVilla/ComputerScienceBSPATH/blob/main/CISP%20440%20Discrete%20Structures/images/2_2_pqr_truth_2T1.png)
+
+
+## Q14
+Given the following information about a computer program, find the mistake in the program. 
+
+   a.   There is an undeclared variable or there is a syntax error in the first five lines.
+
+   b.  If there is a syntax error in the first five lines, then there is a missing semicolon or a variable name is misspelled.
+
+   c.  There is not a missing semicolon.
+
+   d.  There is not a misspelled variable name.
+   
+     The program contains an undeclared variable. 
+
+## Q15
+An argument is called ___________ if, and only if, it is _________ and all its premises are ________. An argument that is not __________ is called ______________.
+
+What would be the best choice to fill in blanks for the above question?
+
+    sound;  valid;    true;   sound;  unsound 
