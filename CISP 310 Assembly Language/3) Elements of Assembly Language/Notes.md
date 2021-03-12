@@ -76,7 +76,36 @@
 
 
 
+
+
+
+
+
+
+
+
 # 3.2 32-Bit Example using Debugger
+## Framework Packages
+![](https://github.com/JeffreybVilla/ComputerScienceBSPATH/blob/main/CISP%20310%20Assembly%20Language/images/assemblyframeworks.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Data Declarations
 
