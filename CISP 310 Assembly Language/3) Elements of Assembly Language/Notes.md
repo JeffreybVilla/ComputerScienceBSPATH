@@ -88,6 +88,30 @@
 ## Framework Packages
 ![](https://github.com/JeffreybVilla/ComputerScienceBSPATH/blob/main/CISP%20310%20Assembly%20Language/images/frameworks.png)
 
+## Debugger Memory Display
+    Shows the starting memory address for each line.
+
+    Shows the 2 hex digits for each byte memory byte
+        • If the byte can be interpreted as a printable ASCII character, that character is
+        displayed to the right.
+        • Otherwise, a period is displayed to the right.
+
+## Output of Assembler
+    Object file (e.g., example.obj)
+        • Contains machine language statements almost ready to execute
+
+    Listing file (e.g., example.lst)
+        • Shows how the assembler translated the source program
+
+## Listing File
+    00000000 .DATA
+    00000000 FFFFFF97 number DWORD -105
+    00000004 00000000 sum DWORD ?
+    00000000 .CODE
+    00000000 main PROC
+    00000000 A1 00000000 R mov eax, number
+    00000005 05 0000009E add eax, 158
+    0000000A A3 00000004 R mov sum, eax
 
 
 
@@ -103,11 +127,67 @@
 
 
 
+# 3.3 Data Declarations
+This section explains the formats of operands used in BYTE, WORD, DWORD, and QWORD directives.
+![](https://github.com/JeffreybVilla/ComputerScienceBSPATH/blob/main/CISP%20310%20Assembly%20Language/images/dataDeclarations.png)
+
+## BYTE Directive
+Examples:
+byte1   BYTE 255            ; value is FF
+byte2   BYTE 91             ; value is 5B
+byte3   BYTE 0              ; value is 00
+byte4   BYTE -1             ; value is FF
+byte5   BYTE 6 DUP (?)      ; 6 bytes each with 00
+byte6   BYTE 'm'            ; value is 6D
+byte7   BYTE "Joe"          ; 3 bytes with 4A 6F 65
+
+## DWORD Directive
+Reserves storage for one or more doublewords of data, optionally initializing storage
+
+Examples:
+double1     DWORD -1                ; value is FFFFFFFF
+double2     DWORD -1000             ; value is FFFFFC18
+double3     DWORD -2147483648       ; value is 80000000
+double4     DWORD 0, 1              ; two doublewords
+Double5     DWORD 100 DUP (?)       ; 100 doublewords
+
+## Multiple Operands
+Separated by commas
+• DWORD 10, 20, 30      ; three doublewords
+
+Using DUP
+• DWORD 100 DUP (?)     ; 100 doublewords
+
+Character strings (BYTE directive only)
+• BYTE "ABCD"           ; 4 bytes
+
+## Parts of an Instruction
+Instruction’s object code begins with the opcode, usually one byte
+    • mov eax, number
+
+Instruction operand
+    • add eax, 158
+
+## Types of Instruction Operands
+Immediate mode
+• Constant assembled into the instruction
+
+Register mode
+• A code for a register is assembled into the instruction
+
+Memory references
+• Several different modes
 
 
 
 
-# Data Declarations
+
+
+
+
+
+
+
 
 # Instruction Operands
 
