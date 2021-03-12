@@ -1,6 +1,6 @@
 # Assembly Language Statements
-We will write and execute assembly language programs in Visual Studio environment.
-First section describes statements that are accepted by Visual Studio's assembler.
+    We will write and execute assembly language programs in Visual Studio environment.
+    First section describes statements that are accepted by Visual Studio's assembler.
 ![](https://github.com/JeffreybVilla/ComputerScienceBSPATH/blob/main/CISP%20310%20Assembly%20Language/images/assemblyEx1.png)
 
 ## Comments
