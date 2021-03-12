@@ -39,8 +39,14 @@ Above Example:
 .DATA            ;tells the assembler that data items are about to be defined in a data segment.
                  ;Each DWORD directive tells the assembler to reserve a doubleword of memory for data.
 
-.CODE            ;tells the assembler that the next statements are executable instructions in a code section..
+.CODE            ;tells the assembler that the next statements are executable instructions in a code section.
 
+PROC             ;marks the beginning of a procedure.
+ENDP             ;marks the end of a procedure.
+END              ;tells the assembler to stop assembling statements.
+
+The label main on the PROC & END directives, names the procedure.
+In the console32 environment, you must call your procedure main.
 
 
 
