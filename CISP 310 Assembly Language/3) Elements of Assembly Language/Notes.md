@@ -24,12 +24,22 @@
     ret             ;Exit to operating system
 
 ## Directives
+A directive tells the assembler to take some action. 
+Typically doesn't cause machine code to be generated
 
+Above Example:
+.586             ;tells the assembler to recognize 80x86 instructions that use 32-bit operands.
 
+.MODEL FLAT      ;tells the assembler to generate code for flat memory model execution.
 
+.STACK 4096      ;tells the assembler to generate a request to the operating system to reserve 4096 bytes for the system stack.
+                 ;the system stack is used at execution time for procedure calls and local storage.
+                 ;a stack with 4096 bytes is large enough for most programs.
+                 
+.DATA            ;tells the assembler that data items are about to be defined in a data segment.
+                 ;Each DWORD directive tells the assembler to reserve a doubleword of memory for data.
 
-
-
+.CODE            ;tells the assembler that the next statements are executable instructions in a code section..
 
 
 
