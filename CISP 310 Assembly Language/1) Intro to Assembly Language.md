@@ -33,6 +33,25 @@
 
 
 
+## Why Assembly?
+- Directly communicate with hardware using human readable text.
+- Direct hardware manipulation.
+- Access to specialized processor instructions.
+- Writing device drivers
+- Operating system design.
+- Embeded system program, etc.
+
+
+## Will help you understand
+- How data is represented in memory and other external devices. 
+- How programs interface with your operating system, processor, and BIOS. 
+- How the processor accesses and executes instructions.
+- How instructions access and process data.
+- How a program accesses external devices. 
+
+
+
+
 
 
 
