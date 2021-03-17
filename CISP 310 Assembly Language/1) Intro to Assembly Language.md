@@ -39,6 +39,9 @@
     - How a program accesses external devices. 
 
 
+
+
+
 # Basics of Computer Hardware
 ## Main internal hardware
     - Processor:
@@ -48,7 +51,7 @@
     In order to execute a program the system copies this into an internal memory and then the processor executes the program instructions.
 
 
-## Storage Units
+# Storage Units
     Computer storage unit is called a bit.
     A bit can be 0 (OFF) or 1 (ON).
     8 bits = 1 byte.
@@ -62,6 +65,80 @@
     Megabytes: 1,048,576 bytes
 
 
+# Number System
+- Decimal Number System:      base 10
+- Binary Number System:       base 2
+- Hexadecimal Number System:  base 16
+- Octal Number System:        Base 8
+
+
+## Denary/Decimal Number System
+- Base 10
+- Standard system for denoting integer and non-integer numbers.
+- Uses digits to represent all the numbers.
+EX: 1, 2, 3, ...
+
+
+## Binary Number System
+- Base 2
+- Begins at 0 and increase by 1
+- The value of a binary number is based on the presence of 1 bit and their positional value.
+EX: 1 = 0001
+
+
+## Hexadecimal Number System 
+- Base 16 
+- Digits range from 0 to 15
+- Letters A through F represent 10 through 15
+- Used for abbreviating lengthy binary
+- To convert hexadecimal to binary, break it into groups of 4 consecutive groups each and write corresponding digits.
+    EX: 0001 1101 = 1D
+- To convert hexadecimal to binary, write each hexadecimal digit into its 4-digit binary equivalent.
+    EX: 2E = 0010 1110
+    
+
+## Octal Number System
+- Base 8
+- Uses digits 0 to 7
+- Can be made from binary numbers by grouping consecutive binary digits into groups of three
+    EX: decimal 12 = 014 in octal
+
+
+
+
+
+
+# Execution Cycle
+- The process through which the processor controls the execution of instructions.
+1. Fetch
+2. Decode
+3. Execute
+
+
+
+
+
+# Start writing your first assembly program x86
+        1. Need an IDE for Assembly Language
+        2. Need Official x86 Assembly Language Reference Manual
+        3. Program Stucture
+            .586
+        .MODEL FLAT
+        .STACK 4096
+        INCLUDE io.h            ; header file for input/output
+        .DATA
+        sum DWORD ?
+
+        .CODE
+        _MainProc PROC
+                mov eax, 7
+                add eax, 4
+                mov sum, eax
+
+                mov     eax, 0						; exit with return code 0
+                ret
+        _MainProc ENDP
+        END
 
 
 
@@ -69,13 +146,7 @@
 
 
 
-
-
-
-
-
-
-
-
-# Start writing your first assembly program
-
+# Understanding Registers
+- One of the main tools to write programs in x86 assembly are the processor registers.
+- You can, informally, think of registers as variables that are built in the processor.
+- Using registers instead of memory to store values, makes the process faster and more efficient. 
