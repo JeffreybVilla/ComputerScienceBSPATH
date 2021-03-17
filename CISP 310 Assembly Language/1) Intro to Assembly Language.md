@@ -125,7 +125,7 @@ EX: 1 = 0001
             .586
         .MODEL FLAT
         .STACK 4096
-        INCLUDE io.h            ; header file for input/output
+        INCLUDE io.h ;header file for input/output
         .DATA
         sum DWORD ?
 
@@ -135,7 +135,7 @@ EX: 1 = 0001
                 add eax, 4
                 mov sum, eax
 
-                mov     eax, 0						; exit with return code 0
+                mov     eax, 0 ;exit with return code 0
                 ret
         _MainProc ENDP
         END
