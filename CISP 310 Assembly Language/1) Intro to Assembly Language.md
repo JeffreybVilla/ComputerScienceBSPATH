@@ -55,7 +55,43 @@
 
 
 
-# Must know basics
+# Basics of Computer Hardware
+## Main internal hardware
+- Processor:
+- Memory:
+- Registers: Are processor components that hold data and addresses.
+
+In order to execute a program the system copies this into an internal memory and then the processor executes the program instructions.
+
+
+## Storage Units
+Computer storage unit is called a bit.
+A bit can be 0 (OFF) or 1 (ON).
+8 bits = 1 byte.
+2 byte = Word.
+
+Word: 2-byte data item
+Doubleword: 4-byte (32-bit) data item
+Quadword: 8-byte (64-bit) data item
+Paragraph: 16-byte (128 bit) area
+Kilobyte: 1024 bytes
+Megabytes: 1,048,576 bytes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Start writing your first assembly program
 
