@@ -12,6 +12,56 @@
 
 ### Compiler translates to the target machine language.
 
+
+# 2. Why program in Assembly?
+### There are some disadvantages...
+
+    - Assembly language programs are not portable!
+
+    - Learning the assembly is more difficult than learning Java!
+
+    - Programming in the assembly language is a tedious and error-prone process.
+
+    - High-level languages should be natural preference for common applications.
+
+ 
+# 3. Here is why...
+### Assembly language programs contain only the code that is necessary to perform the given task.
+
+### Assembly gives direct and complete control over system hardware:
+    - Writing device drivers.
+
+    - Operating system design.
+
+    - Embedded systems programming, e.g. aviation industry.
+
+    - Writing in-line assembly (mixed-mode) in high-level languages such as C/C++, or hybrid programming in assembly and C/C++.
+
+
+# 4. Speed, Efficiency, Debugging, Optimization...
+### There are areas where speed is everything, for example, internet data encryption, aircraft navigational systems, medical hardware control...
+
+### There are also areas where space-efficiency is everything: spacecraft control software...
+
+### Understanding disassembly view of an executable program is also useful:
+    - for investigating the cause of a serious bugs or crashes that require understanding of memory dumps and disassembled code.
+
+    - for optimizing your code.
+
+    - for practical and educational purposes.
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 17. General Purpose Registers
 - The EAX, EDX, ECX, EBX, EBP, EDI, and ESI registers are 32-bit general-purpose registers, used for temporary data storage and memory access.
 
