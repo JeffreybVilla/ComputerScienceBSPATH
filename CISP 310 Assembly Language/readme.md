@@ -1,3 +1,17 @@
+# 1. Advantages of High-Level Languages
+### High-level language programs are portable.
+    (Although some programs could still have a few machine-dependent details, they can be used with little or no modifications on other types of machines.)
+
+### High-level instructions
+
+    - Program development is faster
+
+    - Fewer lines of code
+
+    - Program maintenance is easier
+
+### Compiler translates to the target machine language.
+
 # 17. General Purpose Registers
 - The EAX, EDX, ECX, EBX, EBP, EDI, and ESI registers are 32-bit general-purpose registers, used for temporary data storage and memory access.
 
