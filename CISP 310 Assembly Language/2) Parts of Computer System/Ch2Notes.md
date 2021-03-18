@@ -1,4 +1,4 @@
-# x86 Registers General Purpose Registers
+# x86 General Purpose Registers
 - The EAX, EDX, ECX, EBX, EBP, EDI, and ESI registers are 32-bit general-purpose registers, used for temporary data storage and memory access.
 
 - The AX, DX, CX, BX, BP, DI, and SI registers are 16-bit equivalents of the above, they represent the low-order 16 bits of 32-bit registers.
