@@ -122,10 +122,13 @@ EX: 1 = 0001
         1. Need an IDE for Assembly Language
         2. Need Official x86 Assembly Language Reference Manual
         3. Program Stucture
-            .586
+
+
+         .586
         .MODEL FLAT
         .STACK 4096
         INCLUDE io.h ;header file for input/output
+        
         .DATA
         sum DWORD ?
 
@@ -150,3 +153,7 @@ EX: 1 = 0001
 - One of the main tools to write programs in x86 assembly are the processor registers.
 - You can, informally, think of registers as variables that are built in the processor.
 - Using registers instead of memory to store values, makes the process faster and more efficient. 
+- Instructions are executed sequentially
+- x86 CPU has eight 32-bit General-Purpose Registers
+    - eax, ecx, edx, ebx, esp, ebp, esi, edi
+    - These registers are used for temporary data storage and memory access. 
