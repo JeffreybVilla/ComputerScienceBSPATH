@@ -66,3 +66,15 @@
     - Zero flag (ZF) is bit 6
     - Sign flag (SF) is bit 7
     - Overflow flag (OF) is bit 11
+
+# EXAMPLE: How flags are set by instructions
+### Consider this instruction: ADD EAX, 158
+- This instruction affects CF, OF, PF, SF, and ZF.
+- Suppose that EAX contains the word FF FF FF F3 prior to execution of the instruction.
+- Since 158 = the doubleword 00 00 00 9E
+- This instruction adds FF FF FF F3 and 00 00 00 9E
+- Putting the sum 00 00 00 91 in the EAX register.
+- It sets the carry flag CF to 1 since there is a carry.
+- The overflow flag OF is set to 0 since there is no overflow.
+- The sign flag SF is set to 0 (The leftmost bit of the sum 00 00 00 91)
+- Zero flag ZF is set to 0 since the sum is not 0.
