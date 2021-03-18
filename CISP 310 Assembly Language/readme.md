@@ -1,3 +1,18 @@
+# 0. Storage Units
+    Computer storage unit is called a bit.
+    A bit can be 0 (OFF) or 1 (ON).
+    8 bits = 1 byte.
+    2 byte = Word.
+
+    Word: 2-byte data item
+    Doubleword: 4-byte (32-bit) data item
+    Quadword: 8-byte (64-bit) data item
+    Paragraph: 16-byte (128 bit) area
+    Kilobyte: 1024 bytes
+    Megabytes: 1,048,576 bytes
+
+
+
 # 1. Advantages of High-Level Languages
     - High-level language programs are portable.
         - (Although some programs could still have a few machine-dependent details, they can be used with little or no modifications on other types of machines.)
