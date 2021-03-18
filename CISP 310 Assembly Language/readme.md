@@ -19,29 +19,24 @@
 
  
 # 3. Here is why...
-### Assembly language programs contain only the code that is necessary to perform the given task.
+    - Assembly language programs contain only the code that is necessary to perform the given task.
 
-### Assembly gives direct and complete control over system hardware:
-    - Writing device drivers.
-
-    - Operating system design.
-
-    - Embedded systems programming, e.g. aviation industry.
-
-    - Writing in-line assembly (mixed-mode) in high-level languages such as C/C++, or hybrid programming in assembly and C/C++.
+    - Assembly gives direct and complete control over system hardware:
+        - Writing device drivers.
+        - Operating system design.
+        - Embedded systems programming, e.g. aviation industry.
+        - Writing in-line assembly (mixed-mode) in high-level languages such as C/C++, or hybrid programming in assembly and C/C++.
 
 
 # 4. Speed, Efficiency, Debugging, Optimization...
-### There are areas where speed is everything, for example, internet data encryption, aircraft navigational systems, medical hardware control...
+    - There are areas where speed is everything, for example, internet data encryption, aircraft navigational systems, medical hardware control...
 
-### There are also areas where space-efficiency is everything: spacecraft control software...
+    - There are also areas where space-efficiency is everything: spacecraft control software...
 
-### Understanding disassembly view of an executable program is also useful:
-    - for investigating the cause of a serious bugs or crashes that require understanding of memory dumps and disassembled code.
-
-    - for optimizing your code.
-
-    - for practical and educational purposes.
+    - Understanding disassembly view of an executable program is also useful:
+        - for investigating the cause of a serious bugs or crashes that require understanding of memory dumps and disassembled code.
+        - for optimizing your code.
+        - for practical and educational purposes.
 
 
 
@@ -67,13 +62,13 @@
 
 
 # 17. General Purpose Registers
-- The EAX, EDX, ECX, EBX, EBP, EDI, and ESI registers are 32-bit general-purpose registers, used for temporary data storage and memory access.
+    - The EAX, EDX, ECX, EBX, EBP, EDI, and ESI registers are 32-bit general-purpose registers, used for temporary data storage and memory access.
 
-- The AX, DX, CX, BX, BP, DI, and SI registers are 16-bit equivalents of the above, they represent the low-order 16 bits of 32-bit registers.
+    - The AX, DX, CX, BX, BP, DI, and SI registers are 16-bit equivalents of the above, they represent the low-order 16 bits of 32-bit registers.
 
-- The AH, DH, CH, and BH registers represent the high-order 8 bits of the corresponding register
+    - The AH, DH, CH, and BH registers represent the high-order 8 bits of the corresponding register
 
-- Similarly, AL, DL, CL, and BL represent the low-order 8 bits of the registers.
+    - Similarly, AL, DL, CL, and BL represent the low-order 8 bits of the registers.
 ![gp_registers (2)](https://user-images.githubusercontent.com/32498334/111692899-36200880-87ed-11eb-8353-afaa5d57368e.jpg)
 
 
