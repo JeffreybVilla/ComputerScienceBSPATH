@@ -35,15 +35,17 @@
     - They both can be used as 16-bit or 32-bit registers
     - Also in string processing instructions
     - ESI & EDI can be used as general-purpose data registers.
-![index_n_pointer_registers](https://user-images.githubusercontent.com/32498334/111691430-8b5b1a80-87eb-11eb-867a-78d82675e930.png)
 
 ### 2 Pointer registers:
-- ESP (Stack pointer)
-- EBP (Base pointer)
+    - ESP (Stack pointer)
+    - EBP (Base pointer)
 
-- 16-bit or 32-bit registers
-- Used exclusively to maintain the stack.
-![index_n_pointer_registers (1)](https://user-images.githubusercontent.com/32498334/111693752-45538600-87ee-11eb-8b25-759fbf43e2d3.png)
+    - 16-bit or 32-bit registers
+    - Used exclusively to maintain the stack.
+![index_n_pointer_registers](https://user-images.githubusercontent.com/32498334/111691430-8b5b1a80-87eb-11eb-867a-78d82675e930.png)
+
+
+
 
 
 
