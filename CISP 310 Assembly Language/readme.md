@@ -220,30 +220,30 @@
 
 
 # 21. x86 Control Registers
-- EIP 32-bit: 
-    - Holds address of next instruction to be fetched for execution.
- 
-- EFLAGS 32-bit: 
-    - Collection of flags, or status bits.
-    - Records information about many operations
-    - Status flags: records status info about result of the last arithmetic/logical instruciton.
-    - Direction flag: stores forward/backward direction for data copying.
-    - System flags:
-        - IF interrupt-enable mode
-        - TF Trap flag used in single-step debugging.
-    - Carry flag (CF) is bit 0
-    - Zero flag (ZF) is bit 6
-    - Sign flag (SF) is bit 7
-    - Overflow flag (OF) is bit 11
+    - EIP 32-bit: 
+        - Holds address of next instruction to be fetched for execution.
+
+    - EFLAGS 32-bit: 
+        - Collection of flags, or status bits.
+        - Records information about many operations
+        - Status flags: records status info about result of the last arithmetic/logical instruciton.
+        - Direction flag: stores forward/backward direction for data copying.
+        - System flags:
+            - IF interrupt-enable mode
+            - TF Trap flag used in single-step debugging.
+        - Carry flag (CF) is bit 0
+        - Zero flag (ZF) is bit 6
+        - Sign flag (SF) is bit 7
+        - Overflow flag (OF) is bit 11
 
 # EXAMPLE: How flags are set by instructions
-### Consider this instruction: ADD EAX, 158
-- This instruction affects CF, OF, PF, SF, and ZF.
-- Suppose that EAX contains the word FF FF FF F3 prior to execution of the instruction.
-- Since 158 = the doubleword 00 00 00 9E
-- This instruction adds FF FF FF F3 and 00 00 00 9E
-- Putting the sum 00 00 00 91 in the EAX register.
-- It sets the carry flag CF to 1 since there is a carry.
-- The overflow flag OF is set to 0 since there is no overflow.
-- The sign flag SF is set to 0 (The leftmost bit of the sum 00 00 00 91)
-- Zero flag ZF is set to 0 since the sum is not 0.
+    - Consider this instruction: ADD EAX, 158
+        - This instruction affects CF, OF, PF, SF, and ZF.
+        - Suppose that EAX contains the word FF FF FF F3 prior to execution of the instruction.
+        - Since 158 = the doubleword 00 00 00 9E
+        - This instruction adds FF FF FF F3 and 00 00 00 9E
+        - Putting the sum 00 00 00 91 in the EAX register.
+        - It sets the carry flag CF to 1 since there is a carry.
+        - The overflow flag OF is set to 0 since there is no overflow.
+        - The sign flag SF is set to 0 (The leftmost bit of the sum 00 00 00 91)
+        - Zero flag ZF is set to 0 since the sum is not 0.
