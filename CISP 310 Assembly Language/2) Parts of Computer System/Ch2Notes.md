@@ -14,20 +14,20 @@
 
 
 # x86 Registers
-## Four 32-bit registers can be used as
+### Four 32-bit registers can be used as
     Four 32-bit registers: EAX, EBX, ECX, EDX
 
     Four 16-bit registers: AX, BX, CX, DX
 
     Eight 8-bit registers: AH, AL, BH, BL, CH, CL, DH, DL 
 
-## Some registers have special use
+### Some registers have special use
     ECX for count in LOOP and repeatable instructions.
 
 ![32bit_registers](https://user-images.githubusercontent.com/32498334/111690750-d1fc4500-87ea-11eb-9f90-550d2ffc1ecf.png)
 
 
-## Index Registers & Pointer Registers
+## x86 Index Registers & Pointer Registers
 ### 2 index registers:
     - ESI (source index)
     - EDI (destination index)
@@ -50,4 +50,19 @@
 
 
 
-# x86 Control Registers
+## x86 Control Registers
+- EIP 32-bit: 
+    - Holds address of next instruction to be fetched for execution.
+ 
+- EFLAGS 32-bit: 
+    - Collection of flags, or status bits.
+    - Records information about many operations
+    - Status flags: records status info about result of the last arithmetic/logical instruciton.
+    - Direction flag: stores forward/backward direction for data copying.
+    - System flags:
+        - IF interrupt-enable mode
+        - TF Trap flag used in single-step debugging.
+    - Carry flag (CF) is bit 0
+    - Zero flag (ZF) is bit 6
+    - Sign flag (SF) is bit 7
+    - Overflow flag (OF) is bit 11
