@@ -9,3 +9,4 @@
 - Similarly, AL, DL, CL, and BL represent the low-order 8 bits of the registers.
 
 ![gp_registers](https://user-images.githubusercontent.com/32498334/111687504-9318c000-87e7-11eb-8dca-d28fcaa88ff1.jpg)
+![gp_registers (1)](https://user-images.githubusercontent.com/32498334/111687583-aaf04400-87e7-11eb-9be2-3fd7b871f854.jpg)
