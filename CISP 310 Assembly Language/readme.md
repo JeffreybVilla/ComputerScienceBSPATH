@@ -55,7 +55,18 @@
 
 
 
+# 11. Runtime Environment
+    - Program runs on the processor.
 
+    - Program uses operating system functions and services.
+
+    - Program uses one of the memory models:
+        - Real mode flat model, 65,536 bytes of addressable memory (ancient MS-DOS .COM files)
+        - Real mode segmented model, 1 megabyte (prime-time MS-DOS)
+        - Protected mode flat model, modern Windows and Linux:
+            - Addressable Memory: 80486 and Pentium - 4 Gigabytes
+            - As far as 32-bit Vista is concerned, the world ends at 4,096 megabytes.
+            - A 32-bit program can address up to 4 gigabytes of memory.
 
 
 
