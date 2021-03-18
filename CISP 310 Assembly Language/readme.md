@@ -1,28 +1,21 @@
 # 1. Advantages of High-Level Languages
-### High-level language programs are portable.
-    (Although some programs could still have a few machine-dependent details, they can be used with little or no modifications on other types of machines.)
+    - High-level language programs are portable.
+        - (Although some programs could still have a few machine-dependent details, they can be used with little or no modifications on other types of machines.)
 
-### High-level instructions
+    - High-level instructions
+        - Program development is faster
+        - Fewer lines of code
+        - Program maintenance is easier
 
-    - Program development is faster
-
-    - Fewer lines of code
-
-    - Program maintenance is easier
-
-### Compiler translates to the target machine language.
+    - Compiler translates to the target machine language.
 
 
 # 2. Why program in Assembly?
-### There are some disadvantages...
-
-    - Assembly language programs are not portable!
-
-    - Learning the assembly is more difficult than learning Java!
-
-    - Programming in the assembly language is a tedious and error-prone process.
-
-    - High-level languages should be natural preference for common applications.
+    - There are some disadvantages...
+        - Assembly language programs are not portable!
+        - Learning the assembly is more difficult than learning Java!
+        - Programming in the assembly language is a tedious and error-prone process.
+        - High-level languages should be natural preference for common applications.
 
  
 # 3. Here is why...
