@@ -56,6 +56,112 @@
             - As far as 32-bit Vista is concerned, the world ends at 4,096 megabytes.
             - A 32-bit program can address up to 4 gigabytes of memory.
 
+## Example
+    ; CIS-77
+    ; your_program_name.asm
+    ; Brief description of what the program does
+
+    .386                ; Tells MASM to use Intel 80386 instruction set.
+    .MODEL FLAT         ; Flat memory model
+    option casemap:none ; Treat labels as case-sensitive
+
+    .CONST              ; Constant data segment
+
+    .STACK 100h         ; (default is 1-kilobyte stack)
+
+    .DATA               ; Begin initialized data segment
+
+    .CODE               ; Begin code segment
+    _main PROC          ; Beginning of code
+
+        ret
+
+    _main ENDP
+    END _main           ; Marks the end of the module and sets the program entry point label
+
+
+
+# 12. Assembly & C-Code Compared
+    - Some simple high-level language instructions can be expressed by a single assembly instruction:
+
+    Assembly Code           C Language Code
+    ----------------        ---------------------------------
+    inc result              ++result;    // Increment value
+    mov size,  1024         size = 1024; // Assign value
+    and var,   128          var &= 128;  // Apply AND bitmask
+    add value, 10           value += 10; // Addition
+
+# 13. More Assembly & C -Code
+    - Most high-level language instructions need more than one assembly instruction:
+
+    Assembly Code           C Language Code
+    ----------------        ---------------------------------
+    mov AX,   value         size = value;     // Assign variable
+    mov size, AX
+
+    mov AX,   sum           sum += x + y + z; // Arithmetic computation
+    add AX,   x
+    add AX,   y
+    add AX,   z
+    mov sum,  AX
+
+
+
+# 14. Assembly vs. Machine Language
+    - Assembly Language uses mnemonics, digital numbers, comments, etc.
+
+    - Machine Language instructions are just a sequences of 1s and 0s.
+
+    - Readability of assembly language instructions is much better than the machine language instructions:
+
+    Assembly Language   Machine Language (in Hex)
+    -----------------   --------------------------
+    inc result          FF060A00
+    mov size,  45       C7060C002D00
+    and var,   128      80260E0080
+    add value, 10       83060F000A
+
+
+
+
+# 15. Controlling Program Flow
+    - Just as in high-level language, you want to control program flow.
+
+    - The JMP instruction transfers control unconditionally to another instruction.
+
+    - JMP corresponds to goto statements in high-level languages:
+
+    ; Handle one case
+    label1: .
+            .
+            .
+            jmp done
+
+    ; Handle second case
+    label2: .
+            .
+            .
+            jmp done
+            .
+            .
+    done:
+
+
+
+# 16. Conditional Jumps
+    - Conditional jump is taken only if the condition is met.
+
+    - Condition testing is separated from branching.
+
+    - Flag register is used to convey the condition test result.
+
+    For example:
+
+            cmp    ax, bx
+            je     done
+            .
+            .
+    done:
 
 
 
@@ -77,34 +183,34 @@
 
 
 # 19. x86 Registers
-### Four 32-bit registers can be used as
-    Four 32-bit registers: EAX, EBX, ECX, EDX
+    - Four 32-bit registers can be used as
+        - Four 32-bit registers: EAX, EBX, ECX, EDX
 
-    Four 16-bit registers: AX, BX, CX, DX
+        - Four 16-bit registers: AX, BX, CX, DX
 
-    Eight 8-bit registers: AH, AL, BH, BL, CH, CL, DH, DL 
+        - Eight 8-bit registers: AH, AL, BH, BL, CH, CL, DH, DL 
 
-### Some registers have special use
-    ECX for count in LOOP and repeatable instructions.
+    - Some registers have special use
+        - ECX for count in LOOP and repeatable instructions.
 
 ![32bit_registers](https://user-images.githubusercontent.com/32498334/111690750-d1fc4500-87ea-11eb-9f90-550d2ffc1ecf.png)
 
 
 # 20. x86 Index Registers & Pointer Registers
-### 2 index registers:
-    - ESI (source index)
-    - EDI (destination index)
-    
-    - They both can be used as 16-bit or 32-bit registers
-    - Also in string processing instructions
-    - ESI & EDI can be used as general-purpose data registers.
+    - 2 index registers:
+        - ESI (source index)
+        - EDI (destination index)
 
-### 2 Pointer registers:
-    - ESP (Stack pointer)
-    - EBP (Base pointer)
+        - They both can be used as 16-bit or 32-bit registers
+        - Also in string processing instructions
+        - ESI & EDI can be used as general-purpose data registers.
 
-    - 16-bit or 32-bit registers
-    - Used exclusively to maintain the stack.
+    - 2 Pointer registers:
+        - ESP (Stack pointer)
+        - EBP (Base pointer)
+
+        - 16-bit or 32-bit registers
+        - Used exclusively to maintain the stack.
 ![index_n_pointer_registers](https://user-images.githubusercontent.com/32498334/111691430-8b5b1a80-87eb-11eb-867a-78d82675e930.png)
 
 
